@@ -1,0 +1,44 @@
+Default Styling
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  width: 100vw !important;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* position: relative; */
+}
+
+
+/* .MuiPickersPopper-paper > div > div:nth-child(1) {
+  display: none !important;
+} */
+
+/* .background-image-test {
+  background: url("./assets/Images/heroSlider/2.jpg");
+  background-size: contain;
+  background-position: center;
+} */
+
+
+/* @import url("./assets/styles/_reusables.css");
+@import url("./assets/styles/_datepicker.css");
+@import url("./assets/styles/_globals.css"); */
+
+/* This injects Tailwind’s base styles, which is a combination of Normalize.css and some additional base styles. */
+@tailwind base;
+
+/* This injects any component (reusable styles like cards and form elements, etc.) classes registered by plugins based in our config file. */
+@tailwind components;
+
+/*This injects all of Tailwind’s utility classes (including the default and your own utilities) they are generated based on our config file*/
+@tailwind utilities;

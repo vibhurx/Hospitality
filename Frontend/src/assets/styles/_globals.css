@@ -1,0 +1,20 @@
+/* ::selection */
+/* ::selection {
+  @apply bg-accent text-white !important;
+} */
+
+/* ::-webkit-scrollbar */
+/* ::-webkit-scrollbar {
+  @apply hidden;
+} */
+
+/* ::selection */
+::selection {
+  background-color: var(--color-accent) !important;
+  /* color: #fff !important; */
+}
+
+/* ::-webkit-scrollbar */
+::-webkit-scrollbar {
+  /* display: none !important; */
+}
