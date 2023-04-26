@@ -44,7 +44,7 @@ const LoginForm = () => {
             Welcome back! 👋
           </div>
           <div className="mt-2 mb-8 text-xl text-center text-gray-700">
-            Sign in to your account
+            Sign in to your accounnt
           </div>
           <div className="mb-4">
             <label
