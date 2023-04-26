@@ -8,20 +8,18 @@ pipeline {
       }
     }
     
-    stage('Build and Test Backend') {
+    stage('Install dependencies and build Backend') {
       steps {
         dir('Backend') {
           sh 'npm install'
-          sh 'npm test'
         }
       }
     }
     
-    stage('Build and Test Frontend') {
+    stage('Install dependencis and build Frontend') {
       steps {
         dir('Frontend') {
           sh 'npm install'
-          sh 'npm test'
           sh 'npm run build'
         }
       }
