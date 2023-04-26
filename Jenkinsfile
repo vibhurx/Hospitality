@@ -24,5 +24,12 @@ pipeline {
         }
       }
     }
+
+    stage('Deploy'){
+	Enviornment{
+	}
+	Steps {
+	}
     }
+}
 }
